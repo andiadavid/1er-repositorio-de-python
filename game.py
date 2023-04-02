@@ -38,7 +38,7 @@ for i in range(0, times):
             else: 
                 print("El resultado es incorrecto")
         case "/":            
-            if number_2 != 0:
+            if number_2 != 0:#tengo q tener en cunata q no se puede dividir por 0
                 if result == number_1 / number_2:
                     print("El resutado es correcto")
                     resp_bien+=1
